@@ -126,6 +126,10 @@ dans l'interface et attendez une minute : l'agent désinstalle alors le client R
 lui-même installé ([docs/remote-control.md](../../docs/remote-control.md)). Une fois l'agent
 supprimé, plus rien ne le fera.
 
+> Depuis Alisa, le **super administrateur** peut aussi demander à l'agent de se désinstaller
+> lui-même (fiche de l'hôte › **Désinstaller l'agent**, agent ≥ 0.3.34, passkey) : mêmes
+> étapes que ci-dessous, sans intervention sur la machine ([docs/remote-actions.md](../../docs/remote-actions.md)).
+
 Linux (systemd), en root :
 
 ```bash
